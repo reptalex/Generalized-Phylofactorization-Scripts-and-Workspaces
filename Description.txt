@@ -1,0 +1,22 @@
+Welcome!
+
+This repository contains the scripts and datasets to replicate the analyses from the Ecological Monograph "Phylofactorization: a graph-partitioning algorithm to identify phylogenetic scales in ecological data".
+
+First, download the R package "phylofactor" from Github at https://github.com/reptalex/phylofactor (instructions for installation are available on that page).
+
+There are five main folders:
+
+1) AG : American Gut, for which we conduct PhyCA 
+
+2) Central_park_Soils : Data from Ramirez et al. (2014) for which we do a GAM analysis of data projected onto the contrast-basis
+
+3) Challenges: R simulation studies of the "statistical challenges" section of the manuscript, including graph-partitioning biases, stopping criteria, graph topological confidence regions & voronoi cell approximations.
+
+4) Generalized_Phylofactorization : the initial dvelopment of what is now the "gpf" function in the R package, phylofactor. This includes the algorithm comparison (phylo, mStable, CoefContrast and mixed algorithms), power analysis, and some of the preliminary functions used.
+
+5) Mammals : Data from ROTL and Pantheria & scripts used to conduct two-sample phylofactorization of mammalian body mass.
+
+If you have any questions, please contact me at alex.d.washburne@gmail.com.
+
+Happy Science!!!
+-Al
